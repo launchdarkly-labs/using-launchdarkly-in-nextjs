@@ -5,11 +5,19 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "export": "next build && next export"
   },
   "dependencies": {
+    "date-fns": "^2.16.1",
+    "gray-matter": "^4.0.2",
+    "launchdarkly-react-client-sdk": "^2.20.2",
     "next": "9.5.3",
+    "prismjs": "^1.21.0",
     "react": "16.13.1",
-    "react-dom": "16.13.1"
+    "react-dom": "16.13.1",
+    "remark": "^12.0.1",
+    "remark-html": "^13.0.1",
+    "swr": "^0.3.5"
   }
 }
