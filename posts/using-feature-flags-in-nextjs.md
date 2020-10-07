@@ -59,3 +59,5 @@ export default function Post({ postData }) {
 ```
 
 This example will work on a NextJS site hosted through Vercel, the NextJS Node server, or as a statically generated site hosted on S3/CDN.
+
+The code behind this [example is available on Github](https://github.com/launchdarkly-labs/using-launchdarkly-in-nextjs).
