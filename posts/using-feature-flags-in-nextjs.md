@@ -53,7 +53,7 @@ export default function Post({ postData }) {
         <div className={utilStyles.lightText}>
           <Date dateString={postData.date} />
           {` `}&mdash;{` `}
-          <span>Redesign is {redesign ? "on" : "off"}</span>
+          <span><code>redesign</code> feature flag is {redesign ? "on" : "off"}</span>
         </div>
 ...
 ```
